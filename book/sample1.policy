@@ -1,0 +1,8 @@
+/* anyone can read write and execute within current working dir */
+grant {
+  permission java.io.FilePermission "${user.dir}", "read,write,execute";
+};
+
+grant {
+  permission java.io.FilePermission "${user.dir}/*", "read,write,execute,delete";
+};
