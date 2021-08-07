@@ -1,5 +1,0 @@
-Peterson 40
-Kimberly 70
-Susan 78
-John 79
-Peter 45
